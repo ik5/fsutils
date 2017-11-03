@@ -45,6 +45,7 @@ func SystemInit(path string) SystemPath {
 	return SystemPath{stat, err}
 }
 
+// HaveError check to see if an error was returned
 func (s SystemPath) HaveError() bool {
 	return s.err != nil
 }
@@ -279,5 +280,3 @@ func GetCurrentDir(endseperator bool) string {
 	}
 	return dir
 }
-
-//
