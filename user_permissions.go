@@ -1,4 +1,4 @@
-package fsutil
+package fsutils
 
 import (
 	"syscall"
