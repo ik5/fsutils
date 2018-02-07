@@ -268,6 +268,11 @@ func (s SystemPath) IsExecutible() bool {
 	return s.IsOtherExecutable()
 }
 
+// Size return length in bytes for regular files; system-dependent for others
+func (s SystemPath) Size() int64 {
+	return s.stat.Size()
+}
+
 // GetCurrentDir returns the working directory that the executable points to
 func GetCurrentDir(endseperator bool) string {
 	dir, err := os.Getwd()
