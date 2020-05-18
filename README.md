@@ -5,6 +5,10 @@ My Go file systems library (for Linux at the moment).
 
  - [ ] Cross Platform implementation
  - [ ] Re-create the API
+ - [ ] Create unit tests
+ - [ ] Create documentation
+ - [ ] Better readme file
+ - [ ] Examples
 
 # License
 
